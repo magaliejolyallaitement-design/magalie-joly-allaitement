@@ -1,0 +1,9 @@
+{
+  "name": "magalie-joly-allaitement",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Site statique de Magalie Joly, consultante en lactation à Pau et dans le Béarn.",
+  "scripts": {
+    "check": "node --check site.js"
+  }
+}

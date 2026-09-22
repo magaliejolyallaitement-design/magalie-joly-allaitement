@@ -1,0 +1,5 @@
+<!-- REPLACE FAVICON HERE: this temporary leaf placeholder is not a permanent logo. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="18" fill="#FAF7F2"/>
+  <path d="M32 51c1-17 7-28 19-35M32 51C25 39 18 32 10 29M32 39c5-6 10-8 16-9M25 35c-4-3-7-4-11-4" fill="none" stroke="#7C9188" stroke-width="2.3" stroke-linecap="round"/>
+</svg>
