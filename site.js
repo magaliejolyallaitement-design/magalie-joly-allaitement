@@ -79,24 +79,16 @@ function initContactForm() {
       status.focus();
       return;
     }
-    const isPreview = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
-    const isNetlify = window.location.hostname.includes("netlify.app") || window.location.hostname.includes("netlify.com");
+    const isPreview = window.location.hostname === "localhost" || window.location.hostname.includes("manus.computer");
     try {
-      if (!isPreview && isNetlify) {
+      if (!isPreview) {
         await fetch("/", {
           method: "POST",
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
           body: new URLSearchParams(data).toString(),
         });
       }
-      if (!isPreview && !isNetlify) {
-        const subject = encodeURIComponent(`Demande de contact — ${name}`);
-        const body = encodeURIComponent(`Nom : ${name}\nE-mail : ${email}\nTéléphone : ${String(data.get("telephone") || "")}\nCommune : ${String(data.get("commune") || "")}\nType de demande : ${String(data.get("type-de-demande") || "")}\n\n${message}`);
-        window.location.href = `mailto:${SITE.email}?subject=${subject}&body=${body}`;
-        status.textContent = "Votre logiciel de messagerie va s’ouvrir pour envoyer votre demande.";
-      } else {
-        status.textContent = "Merci, votre demande a bien été envoyée. Magalie vous répondra dès que possible.";
-      }
+      status.textContent = "Merci, votre demande a bien été envoyée. Magalie vous répondra dès que possible.";
       status.className = "form-status success";
       form.reset();
     } catch {

@@ -1,4 +1,3 @@
-@import url("assets/fonts/fonts.css");
 /*
   Magalie Joly Allaitement 64 — styles globaux
   Palette à modifier ici si nécessaire.
@@ -134,7 +133,7 @@ p { margin: 0 0 1rem; }
 .step p { margin: 0; font-size: .84rem; }
 
 .photo-frame { position: relative; padding: .6rem; background: var(--white); border-radius: 12rem 12rem 1.4rem 1.4rem; box-shadow: var(--shadow); }
-.photo-frame img { width: 100%; aspect-ratio: 4/5; object-fit: cover; border-radius: 11.4rem 11.4rem 1rem 1rem; }
+.photo-frame img { width: 100%; aspect-ratio: 4/5; object-fit: cover; object-position: 50% 18%; border-radius: 11.4rem 11.4rem 1rem 1rem; }
 .photo-placeholder { width: 100%; aspect-ratio: 4/5; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .65rem; border: 1px dashed var(--sage); border-radius: 11.4rem 11.4rem 1rem 1rem; color: var(--sage-deep); background: linear-gradient(150deg, #f7fbf8, var(--powder-pale)); text-align: center; padding: 1.5rem; }
 .photo-placeholder svg { width: 50px; height: 50px; opacity: .72; }
 .photo-placeholder strong { font-family: "Cormorant Garamond", serif; font-size: 1.35rem; }
@@ -271,8 +270,8 @@ p { margin: 0 0 1rem; }
   .two-col { grid-template-columns: 1fr 1fr; align-items: start; gap: 4rem; }
   .card-grid.three { grid-template-columns: repeat(3, 1fr); }
   .when-grid { grid-template-columns: repeat(3, 1fr); }
-  .hero { display: grid; grid-template-columns: minmax(0, .92fr) minmax(0, 1.08fr); align-items: stretch; min-height: 680px; }
-  .hero-image { order: 2; width: 100%; height: 100%; min-height: 680px; object-position: 82% center; }
+  .hero { display: grid; grid-template-columns: minmax(0, .84fr) minmax(0, 1fr); align-items: stretch; min-height: 610px; }
+  .hero-image { order: 2; width: 100%; height: 100%; min-height: 610px; object-position: 78% center; }
   .hero-inner { order: 1; width: auto; max-width: 640px; margin: 0 0 0 max(1.25rem, calc((100vw - 1120px) / 2)); padding: 6.2rem 2rem 5rem 0; display: flex; align-items: center; }
 }
 
@@ -284,3 +283,39 @@ p { margin: 0 0 1rem; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
+
+
+/* Parcours d’accompagnement et suivi connecté */
+.pathway-section { background: var(--sage-pale); }
+.pathway-grid { display: grid; gap: .8rem; margin-top: 2rem; }
+.pathway-step { padding: 1.25rem; background: rgba(255,255,255,.76); border-radius: var(--radius-sm); }
+.pathway-step span { display: block; margin-bottom: .45rem; color: var(--sage-deep); font: 600 1.1rem/1 "Cormorant Garamond", serif; }
+.pathway-step h3 { font-size: 1.45rem; }
+.pathway-step p { margin: .45rem 0 0; font-size: .84rem; }
+.app-section { background: var(--cream); }
+.app-panel { display: grid; gap: 2rem; padding: clamp(1.4rem, 4vw, 3rem); background: linear-gradient(135deg, #f7fbf8, #fff 58%, var(--powder-pale)); border: 1px solid rgba(82,103,95,.12); border-radius: 2rem; box-shadow: var(--shadow-soft); }
+.app-panel h2 { max-width: 680px; }
+.app-benefits { padding: 1.35rem; background: rgba(255,255,255,.72); border-radius: 1.2rem; }
+.app-benefits h3 { margin-bottom: .55rem; font-size: 1.7rem; }
+.app-benefits .list-check { margin-bottom: 1.2rem; }
+.btn-antenatal { background: #d9aeb0; color: var(--charcoal); box-shadow: 0 8px 20px rgba(164,108,108,.12); }
+.support-note { padding: 1rem 1.1rem; border-left: 3px solid var(--sage); border-radius: 0 .75rem .75rem 0; background: var(--sage-pale); font-size: .88rem; }
+.preferred-rate { padding: 2rem 0; }
+.preferred-rate h2 { max-width: 800px; }
+.rate-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; max-width: 620px; margin: 1.5rem 0; }
+.rate-grid > div { display: flex; align-items: center; gap: .8rem; padding: 1rem; background: rgba(255,255,255,.7); border-radius: 1rem; }
+.rate-grid strong { color: var(--sage-deep); font: 600 2.5rem/1 "Cormorant Garamond", serif; }
+.rate-grid span { font-size: .76rem; line-height: 1.45; }
+.rate-grid del { color: #8a7777; }
+@media (min-width: 700px) { .pathway-grid { grid-template-columns: repeat(4, 1fr); } .app-panel { grid-template-columns: 1.2fr .8fr; align-items: center; } }
+@media (min-width: 900px) { .hero .btn-row { max-width: 600px; } }
+@media (max-width: 499px) { .rate-grid { grid-template-columns: 1fr; } .rate-grid > div { justify-content: center; } }
+
+
+/* Illustration du suivi connecté */
+.app-visual { display: flex; justify-content: center; align-items: center; min-height: 240px; }
+.app-visual img { display: block; width: min(100%, 15rem); height: auto; border-radius: 1.4rem; box-shadow: 0 1.5rem 3.5rem rgba(50,62,57,.14); }
+.format-price { display: inline-flex; align-items: baseline; gap: .3rem; margin: .25rem 0 .8rem; color: var(--sage-deep); font: 600 2.35rem/1 "Cormorant Garamond", serif; }
+.format-price small { font: 600 .95rem/1 "Montserrat", sans-serif; color: var(--charcoal); }
+@media (min-width: 700px) { .app-panel { grid-template-columns: minmax(0, 1.05fr) minmax(10rem, .45fr) minmax(0, .8fr); } .app-visual img { width: min(100%, 13rem); } }
+@media (max-width: 699px) { .app-visual { order: 2; } .app-benefits { order: 3; } .app-panel > div:first-child { order: 1; } .app-visual img { width: min(72vw, 14rem); } }
