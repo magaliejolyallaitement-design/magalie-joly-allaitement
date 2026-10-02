@@ -6,7 +6,7 @@ const SITE = {
   phoneDisplay: "06 23 39 11 86", // EDIT PHONE NUMBER HERE
   phoneHref: "tel:+33623391186", // EDIT PHONE NUMBER HERE
   email: "magalie.joly.allaitement@gmail.com", // EDIT EMAIL HERE
-  bookingUrl: "https://koalendar.com/e/rencontrer-magalie-joly-2", // EDIT BOOKING LINK HERE
+  bookingUrl: "https://lacteo.app/rdv/magaliejolyallaitement", // EDIT BOOKING LINK HERE
   googleReviewsUrl: "https://www.google.com/search?sca_esv=3e5594fd685e5dfa&hl=fr-FR&gl=fr&sxsrf=APpeQns88M8iBp6uF4PqKZ_Wfv01GPkE5w:1790019766520&q=Magalie+Joly+Consultante+en+lactation&si=APenkKm7iecQ4G6P-TsbSMFKIQtv3EFIqRAFw-i8uEbk55Z-_7T_hO0gVVzGWizuv4htNMM_5OPP8eFVEAX-cm6x6mQr3ZQ9t7jf3sMs1aoKuovCZrB5QYQ%3D&uds=AJ5uw19l6acODsYY7j4lvSX88Bw4Fa76VZ6KyTvVcGQP2vQmRvQaSYdKN4Xjj0TVGrQbCZpuquh844a4AURBM9i9gQgIGW-kcAde_Hqke-xcIl7cAFi_yE0IPTvthiFOlEght2jKGwcLkAzcTiQXaKnCOJT90KrHQA&sa=X&ved=2ahUKEwij0suit4CXAxVUV0EAHZEtIaUQ3PALegQIGxAE&biw=980&bih=1835&dpr=2.75&sec_src=gmail", // EDIT GOOGLE BUSINESS PROFILE URL HERE
   googleWriteReviewUrl: "https://search.google.com/local/writereview?placeid=ChIJ-9f_x-QDKA4R_rcR38srxwI&source=g.page.m.ia._&laa=nmx-review-solicitation-ia2",
 };

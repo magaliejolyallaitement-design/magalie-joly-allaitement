@@ -1,34 +1,5 @@
-./.github/workflows/deploy-pages.yml
-./.nojekyll
-./404.html
-./EXPORT_MANIFEST.txt
-./README.md
-./assets/accompagnement-domicile.webp
-./assets/app-suivi-allaitement.png
-./assets/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew-.ttf
-./assets/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew-.ttf
-./assets/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w-.ttf
-./assets/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w-.ttf
-./assets/fonts/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5LDfOjw.ttf
-./assets/fonts/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnM.ttf
-./assets/fonts/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_iE9GnM.ttf
-./assets/fonts/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnM.ttf
-./assets/fonts/fonts.css
-./assets/hero-allaitement-pau.webp
-./assets/logo-magalie-joly-new.webp
-./assets/magalie-joly-portrait.webp
-./assets/maternite-douceur.webp
-./conditions-generales-vente/index.html
-./contact/index.html
-./favicon.svg
-./index.html
-./mentions-legales/index.html
-./og-image-placeholder.svg
-./politique-confidentialite/index.html
-./preparation-antenatale/index.html
-./prestations-tarifs/index.html
-./qui-suis-je/index.html
-./robots.txt
-./site.css
-./site.js
-./sitemap.xml
+Magalie Joly Allaitement 64 — export GitHub Pages
+
+Mise à jour 2 octobre 2026 : audit SEO final ; durées corrigées (visio 60 minutes, suivi domicile 1 heure) ; tarifs privilégiés postnataux affichés (60 € domicile au lieu de 70 €, 40 € visio au lieu de 50 €) ; mention discrète de l’application de suivi.
+Toutes les images sont locales dans assets/ ; aucune dépendance Manus ne subsiste.
+Aucune publication GitHub n’a été effectuée.
