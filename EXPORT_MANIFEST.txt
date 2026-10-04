@@ -1,5 +1,5 @@
 Magalie Joly Allaitement 64 — export GitHub Pages
 
-Mise à jour 2 octobre 2026 : audit SEO final ; durées corrigées (visio 60 minutes, suivi domicile 1 heure) ; tarifs privilégiés postnataux affichés (60 € domicile au lieu de 70 €, 40 € visio au lieu de 50 €) ; mention discrète de l’application de suivi.
-Toutes les images sont locales dans assets/ ; aucune dépendance Manus ne subsiste.
-Aucune publication GitHub n’a été effectuée.
+Routes de suivi imprimé ajoutées : /flyer, /affiche et /affiche-preparation.
+Les trois routes redirigent automatiquement avec leurs paramètres UTM vers la page appropriée.
+Aucune page intermédiaire visible, aucun changement de design, de contenu ou de SEO des pages existantes.
