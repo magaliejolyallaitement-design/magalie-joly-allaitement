@@ -1,5 +1,5 @@
 Magalie Joly Allaitement 64 — export GitHub Pages
 
-Routes de suivi imprimé ajoutées : /flyer, /affiche et /affiche-preparation.
-Les trois routes redirigent automatiquement avec leurs paramètres UTM vers la page appropriée.
-Aucune page intermédiaire visible, aucun changement de design, de contenu ou de SEO des pages existantes.
+GA4 : G-YHJ133J6XB, chargé uniquement après consentement statistique.
+Événements : booking_click, phone_click et email_click après consentement.
+Les paramètres UTM des routes /flyer, /affiche et /affiche-preparation sont conservés.
